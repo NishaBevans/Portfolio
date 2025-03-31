@@ -3,6 +3,7 @@ body {
     color: black; /* Sets default text color to black */
 }
 
+
 .hero {
     background: url('images/hero-bg.jpg') no-repeat center center/cover;
     height: 100vh;
@@ -31,3 +32,21 @@ body {
     animation: fadeSlideIn 1.5s ease-out;
 }
 
+.under-construction {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff9800; /* Orange warning color */
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    animation: blink 1.5s infinite alternate;
+}
+
+@keyframes blink {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.5;
+    }
+}
