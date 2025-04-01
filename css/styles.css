@@ -1,6 +1,6 @@
 body {
     padding-top: 56px;
-    color: black; /* Sets default text color to black */
+    color: rgb(0, 0, 0); /* Sets default text color to black */
 }
 
 
@@ -10,11 +10,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: black; /* Ensures hero text is black */
+    color: rgb(0, 0, 0); /* Ensures hero text is black */
 }
 
 .hero h1, .hero p, h2, h5, p {
-    color: black !important; /* Forces text to be black */
+    color: rgb(0, 0, 0) !important; /* Forces text to be black */
 }
 
 @keyframes fadeSlideIn {
